@@ -1,7 +1,7 @@
 Pod::Spec.new do |spec|
   spec.name         = 'OBDiQLib'
   spec.version      = '1.0.1'
-  spec.homepage     = 'https://github.com/RRCummins/OBD2Interface'
+  spec.homepage     = 'https://github.com/Arvind6446/OBDiQLib'
   spec.authors      = { 'Arvind' => 'arvind@cardr.com' }
   spec.summary      = 'Base interface for OBDIQ devices'
   spec.description  = <<-DESC
@@ -16,7 +16,8 @@ Pod::Spec.new do |spec|
   spec.platform     = :ios, '16.1'
 
   # Specify the XCFramework
-  spec.vendored_frameworks = 'OBDiQLib.xcframework'
+   spec.vendored_frameworks = 'OBDiQLib.xcframework'
+ 
 
   # Language and framework specifics
   spec.swift_version = '5.0'
